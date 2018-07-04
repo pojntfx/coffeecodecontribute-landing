@@ -33,6 +33,7 @@ export const Container = styled(OriginalContainer)`
 
 export const Head = props => (
   <Helmet {...props}>
+    <title>CoffeeCodeContribute</title>
     <meta name="theme-color" content="#2185d0" />
   </Helmet>
 );

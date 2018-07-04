@@ -1,4 +1,8 @@
 module.exports = {
+  siteMetadata: {
+    title: "CoffeeCodeContribute",
+    description: "Free/Libre Open Source Software Bootcamp"
+  },
   pathPrefix: "/coffeecodecontribute-landing",
   plugins: [
     "gatsby-plugin-styled-components",
