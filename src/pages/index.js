@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 export default () => (
   <HomeLayout>
     <Segment>
-      <IconGrid centered colums="equal" stackable>
+      <IconGrid centered colums="equal" stackable divided="vertically">
         <Grid.Row>
           <Grid.Column width={5}>
             <Header as="h2" icon textAlign="center">
@@ -33,19 +33,19 @@ export default () => (
             Free/Libre Open Source Software Bootcamp
           </Header>
         </Grid.Row>
-        <ActionsRow textAlign="right">
-          <Button as={Link} to="/docs/getting-started/" primary>
+        <ActionsRow textAlign="center">
+          <ActionButton as={Link} to="/docs/getting-started/" primary>
             <Icon name="rocket" />
             Get started
-          </Button>
-          <Button
+          </ActionButton>
+          <ActionButton
             as="a"
             href="https://gitlab.com/pojntfx/coffeecodecontribute-landing"
             secondary
           >
             <Icon name="gitlab" />
             Browse our sources
-          </Button>
+          </ActionButton>
         </ActionsRow>
       </IconGrid>
     </Segment>
@@ -58,5 +58,10 @@ const IconGrid = styled(Grid)`
 `;
 
 const ActionsRow = styled(Grid.Row)`
-  padding-top: 2rem !important;
+  padding-top: 3rem !important;
+  margin-bottom: -1rem !important;
+`;
+
+const ActionButton = styled(Button)`
+  margin-bottom: 1rem !important;
 `;
