@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/coffeecodecontribute-landing",
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-transformer-remark",
