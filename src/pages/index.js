@@ -1,8 +1,8 @@
 import React from "react";
-import { DefaultLayout } from "../layouts/default";
+import { HomeLayout } from "../layouts/home";
 
 export default () => (
-  <DefaultLayout>
+  <HomeLayout>
     <h1>Hello, world!</h1>
-  </DefaultLayout>
+  </HomeLayout>
 );
