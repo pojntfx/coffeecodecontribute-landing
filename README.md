@@ -4,7 +4,7 @@ An awesome, dead simple landing page for participants of the coffeecodecontribut
 
 ## Demo
 
-> TODO: Add demo
+Take a look at the official instance: [pojntfx.gitlab.io/coffeecodecontribute-landing](https://pojntfx.gitlab.io/coffeecodecontribute-landing)
 
 ## Usage
 
