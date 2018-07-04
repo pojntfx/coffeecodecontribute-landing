@@ -6,6 +6,7 @@ import { MainFooter } from "../components/global/MainFooter";
 import styled from "styled-components";
 import { injectGlobal } from "styled-components";
 import BackgroundImage from "../../assets/start-bg.jpg";
+import Helmet from "react-helmet";
 
 injectGlobal`
 #___gatsby {
@@ -17,6 +18,7 @@ injectGlobal`
 
 export const DefaultLayout = props => (
   <>
+    <Head />
     <MainNavigation />
     <Container>
       <Segment>{props.children}</Segment>
@@ -28,3 +30,9 @@ export const DefaultLayout = props => (
 export const Container = styled(OriginalContainer)`
   padding-top: 4rem;
 `;
+
+export const Head = props => (
+  <Helmet {...props}>
+    <meta name="theme-color" content="#2185d0" />
+  </Helmet>
+);

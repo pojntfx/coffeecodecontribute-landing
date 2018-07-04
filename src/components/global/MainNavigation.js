@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 
 export const MainNavigation = () => (
-  <MainMenu fixed="top" borderless>
+  <MainMenu fixed="top" borderless inverted color="blue">
     <Menu.Item as={Link} to="/" content="CoffeeCodeContribute" />
     <Menu.Menu position="right">
       <Menu.Item

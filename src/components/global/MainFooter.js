@@ -4,7 +4,12 @@ import { Link } from "gatsby";
 import { MainMenu } from "./MainNavigation";
 
 export const MainFooter = props => (
-  <MainMenu fixed={props.fixed ? "bottom" : null} borderless>
+  <MainMenu
+    fixed={props.fixed ? "bottom" : null}
+    borderless
+    inverted
+    color="blue"
+  >
     <Menu.Item
       content="&copy; 2018 Felix Pojtinger. Code is licensed AGPL-3.0, Media CC-BY-4.0."
       as={"a"}

@@ -9,6 +9,7 @@ module.exports = {
         path: `${__dirname}/src/pages`,
         name: "pages"
       }
-    }
+    },
+    "gatsby-plugin-react-helmet"
   ]
 };
