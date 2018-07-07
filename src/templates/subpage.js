@@ -5,7 +5,7 @@ import { graphql } from "gatsby";
 export default ({
   data: {
     markdownRemark: {
-      frontmatter: { title },
+      // frontmatter: { title },
       html
     }
   }
@@ -13,7 +13,7 @@ export default ({
   return (
     <div>
       <DefaultLayout>
-        <h1>{title}</h1>
+        {/* <h1>{title}</h1> */}
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </DefaultLayout>
     </div>
@@ -24,9 +24,9 @@ export const query = graphql`
   query BlogPostQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
-      frontmatter {
-        title
-      }
+      # frontmatter {
+      #   title
+      # }
     }
   }
 `;
