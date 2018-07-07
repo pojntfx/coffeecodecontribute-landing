@@ -10,9 +10,9 @@ Take a look at the official instance: [pojntfx.gitlab.io/coffeecodecontribute-la
 
 ```bash
 # Install dependencies
-yarn install
+npm install
 # Build and serve development version on http://localhost:8000
-yarn dev
+npm run dev
 ```
 
 ## Screenshots
@@ -27,7 +27,7 @@ yarn dev
 
 ```bash
 # Build and serve production ready version on http://localhost:9000
-yarn start
+npm start
 ```
 
 ## License
