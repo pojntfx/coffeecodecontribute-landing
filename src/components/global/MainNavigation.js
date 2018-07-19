@@ -13,6 +13,7 @@ export const MainNavigation = () => (
         as={Link}
         to="/prerequisites"
         activeClassName="active"
+        disabled
       />
       <Menu.Item
         content="Docs"
@@ -34,13 +35,19 @@ export const MainNavigation = () => (
         as={Link}
         to="/people"
         activeClassName="active"
+        disabled
+      />
+      <Menu.Item
+        content="Chat"
+        icon="chat"
+        as={Link}
+        to="/chat"
+        activeClassName="active"
       />
       <Menu.Item
         content="GitLab"
         icon="gitlab"
-        as={Link}
-        to="/gitlab"
-        activeClassName="active"
+        href="https://gitlab.com/coffeecodecontribute/"
       />
     </Menu.Menu>
   </MainMenu>
