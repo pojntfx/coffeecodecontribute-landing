@@ -13,7 +13,6 @@ export const MainNavigation = () => (
         as={Link}
         to="/prerequisites"
         activeClassName="active"
-        disabled
       />
       <Menu.Item
         content="Docs"
