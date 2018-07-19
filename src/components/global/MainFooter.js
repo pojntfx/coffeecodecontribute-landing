@@ -13,7 +13,7 @@ export const MainFooter = props => (
     <Menu.Item
       content="&copy; 2018 Felix Pojtinger. Code is licensed AGPL-3.0, Media CC-BY-4.0."
       as={"a"}
-      href="https://gitlab.com/pojntfx/coffeecodecontribute-landing#license"
+      href="https://gitlab.com/coffeecodecontribute/website#license"
     />
     <Menu.Menu position="right">
       <Menu.Item

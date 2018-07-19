@@ -40,7 +40,7 @@ export default () => (
           </ActionButton>
           <ActionButton
             as="a"
-            href="https://gitlab.com/pojntfx/coffeecodecontribute-landing"
+            href="https://gitlab.com/coffeecodecontribute/website"
             secondary
           >
             <Icon name="gitlab" />
