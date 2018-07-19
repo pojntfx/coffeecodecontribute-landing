@@ -28,14 +28,14 @@ export const MainNavigation = () => (
         to="/culture"
         activeClassName="active"
       />
-      <Menu.Item
+      {/* <Menu.Item
         content="People"
         icon="group"
         as={Link}
         to="/people"
         activeClassName="active"
         disabled
-      />
+      /> */}
       <Menu.Item
         content="Chat"
         icon="chat"
