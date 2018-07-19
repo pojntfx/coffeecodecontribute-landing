@@ -34,7 +34,7 @@ export default () => (
           </Header>
         </Grid.Row>
         <ActionsRow textAlign="center">
-          <ActionButton as={Link} to="/docs/getting-started/" primary>
+          <ActionButton as={Link} to="/docs/" primary>
             <Icon name="rocket" />
             Get started
           </ActionButton>
