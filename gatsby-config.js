@@ -3,7 +3,7 @@ module.exports = {
     title: "CoffeeCodeContribute",
     description: "Free/Libre Open Source Software Bootcamp"
   },
-  pathPrefix: "/coffeecodecontribute-landing",
+  pathPrefix: "/website",
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-transformer-remark",

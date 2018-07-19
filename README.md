@@ -1,10 +1,10 @@
-# CoffeeCodeContribute Landing Page
+# CoffeeCodeContribute Website
 
-An awesome, dead simple landing page for participants of the coffeecodecontribute bootcamp.
+An awesome, dead simple landing page for participants of the CoffeeCodeContribute bootcamp.
 
 ## Demo
 
-Take a look at the official instance: [pojntfx.gitlab.io/coffeecodecontribute-landing](https://pojntfx.gitlab.io/coffeecodecontribute-landing)
+Take a look at the official instance: [coffeecodecontribute.gitlab.io/website](https://coffeecodecontribute.gitlab.io/website)
 
 ## Usage
 

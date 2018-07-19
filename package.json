@@ -1,7 +1,7 @@
 {
   "name": "@coffeecodecontribute/website",
   "version": "0.0.1",
-  "description": "An awesome, dead simple landing page for participants of the coffeecodecontribute bootcamp.",
+  "description": "An awesome, dead simple landing page for participants of the CoffeeCodeContribute bootcamp.",
   "main": "src/layouts/default.js",
   "scripts": {
     "dev": "gatsby develop",
